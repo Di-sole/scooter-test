@@ -1,5 +1,6 @@
 {
   "name": "yandex-test",
+  "homepage": "https://di-sole.github.io/scooter-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
