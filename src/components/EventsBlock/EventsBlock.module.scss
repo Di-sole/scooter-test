@@ -1,0 +1,36 @@
+.events {
+    position: relative;
+    margin-bottom: 105px;
+
+    &__title {
+        max-width: 820px;
+        font-size: 48px;
+        letter-spacing: -0.96px;
+    }
+
+    &__text {
+        max-width: 440px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 376px) {
+    .events {
+        margin-bottom: 72px;
+
+        &__title {
+            font-size: 32px;
+            letter-spacing: -0.64px;
+        }
+    }
+}
+
+@media (max-width: 577px) {
+    .events {
+        &__text {
+            max-width: 577px;
+            width: 100%;
+            margin-bottom: 47px;
+        }
+    }
+}

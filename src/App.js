@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/@nullstyle.scss';
+import './styles/@globals.scss';
+import WelcomeBlock from './components/WelcomeBlock/WelcomeBlock';
+import AdvantagesBlock from './components/AdvantagesBlock/AdvantagesBlock';
+import EventsBlock from './components/EventsBlock/EventsBlock';
+import SubscriptionBlock from './components/SubscriptionBlock/SubscriptionBlock';
+import ConditionsBlock from './components/СonditionsBlock/СonditionsBlock';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <WelcomeBlock />
+      <div className='container'>
+        <AdvantagesBlock />
+        <EventsBlock />
+        <SubscriptionBlock />
+        <ConditionsBlock />
+      </div>
+    </>
   );
 }
 
