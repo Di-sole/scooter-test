@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/scooter-test/static/css/main.dd7e5f29.css",
+    "main.js": "/scooter-test/static/js/main.30dc2f84.js",
+    "static/media/smkt_welcome.png": "/scooter-test/static/media/smkt_welcome.3b4d18cd199f0fbb1888.png",
+    "static/media/01.jpg": "/scooter-test/static/media/01.4ccffd8d57c18e665a06.jpg",
+    "static/media/03.jpg": "/scooter-test/static/media/03.7124bd62baa7bf385d38.jpg",
+    "static/media/02.jpg": "/scooter-test/static/media/02.2ed6e18e7b044ab417f6.jpg",
+    "static/media/04.jpg": "/scooter-test/static/media/04.3f7ad53d25d6aacdb174.jpg",
+    "static/media/cup.png": "/scooter-test/static/media/cup.c39f7d987093fac046dc.png",
+    "static/media/smkt_cloud.png": "/scooter-test/static/media/smkt_cloud.2a61e91f495973127717.png",
+    "static/media/pointer.png": "/scooter-test/static/media/pointer.bdfd99a4563848e797ed.png",
+    "static/media/drops.png": "/scooter-test/static/media/drops.2b3124ff109b10d00709.png",
+    "static/media/text.png": "/scooter-test/static/media/text.f9f87ecef380e4ec876a.png",
+    "static/media/plus.png": "/scooter-test/static/media/plus.5f518e7c78712f5e402e.png",
+    "static/media/smkt.png": "/scooter-test/static/media/smkt.90a8d1501dde1da3ee19.png",
+    "static/media/logo_black.svg": "/scooter-test/static/media/logo_black.75be531f92b84f80227b828023e8b782.svg",
+    "index.html": "/scooter-test/index.html",
+    "main.dd7e5f29.css.map": "/scooter-test/static/css/main.dd7e5f29.css.map",
+    "main.30dc2f84.js.map": "/scooter-test/static/js/main.30dc2f84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd7e5f29.css",
+    "static/js/main.30dc2f84.js"
+  ]
+}
