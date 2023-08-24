@@ -1,0 +1,61 @@
+.carousel {
+  width: 100%;
+}
+.carousel__wrapper {
+  position: relative;
+  min-width: 344px;
+  margin-bottom: 24px;
+  margin-left: -17px;
+}
+.carousel__wrapper::after {
+  position: absolute;
+  content: "";
+  width: 51%;
+  height: 51%;
+  top: -22%;
+  left: 62%;
+  background: no-repeat center/contain url("../lib/drops.png");
+}
+.carousel__item {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 64px;
+  background: #DEDEDE;
+}
+.carousel__item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 64px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.buttons__button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #FFDE40;
+  background-image: url("../lib/arrow.png");
+}
+.buttons__button_prev {
+  background-image: url("../lib/arrow.png");
+  transform: rotate(180deg);
+}
+.buttons__button:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 577px) {
+  .carousel {
+    display: none;
+  }
+}

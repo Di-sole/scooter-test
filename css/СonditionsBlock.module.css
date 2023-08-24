@@ -1,0 +1,15 @@
+.conditions__text {
+  margin-bottom: 128px;
+  color: #C5C5C5;
+  font-family: YS Text;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@media (max-width: 376px) {
+  .conditions__text {
+    margin-bottom: 72px;
+  }
+}

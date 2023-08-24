@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 61px;
+}
+.list__elem {
+  width: calc(50% - 37px);
+}
+
+@media (max-width: 577px) {
+  .list {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .list__elem {
+    width: 100%;
+  }
+}
